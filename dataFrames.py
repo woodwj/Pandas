@@ -13,6 +13,6 @@ drinks = {
 orders = pd.DataFrame(drinks, index=indexi)
 
 print("############################\n")
-print(orders.loc["Mom"])
+print(orders.loc["Jesus Christ"])
 print("############################\n")
-print(orders.iloc[3])
+print(orders.iloc[7])
