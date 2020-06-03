@@ -12,7 +12,7 @@ drinks = {
 
 orders = pd.DataFrame(drinks, index=indexi)
 
-print("\n")
-print(orders["Orange Juice"])
-print("\n")
-print(orders[1:4])
+print("############################\n")
+print(orders.loc["Mom"])
+print("############################\n")
+print(orders.iloc[3])
