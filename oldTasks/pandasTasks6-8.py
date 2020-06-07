@@ -96,9 +96,9 @@ def findMothers(df, Pr = False):
 
 
 shipPassangers = pd.read_csv("test.csv")
-#
-pd.set_option('display.max_rows', 500)
-pd.set_option('display.max_columns', 500)
+# styling
+pd.set_option('display.max_rows', 10)
+pd.set_option('display.max_columns', 15)
 pd.set_option('display.width', 1000)
 
 # Show all passengers in First Class
